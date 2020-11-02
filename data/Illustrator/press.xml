@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<illustrator>
+    <press>
+        <category category_name="Tools">
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="선택" typeKey="" keyCode ="86" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="직접 선택" typeKey="" keyCode ="65" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="자동 선택" typeKey="" keyCode ="89" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="올가미" typeKey="" keyCode ="81" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="펜" typeKey="" keyCode ="80" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="연필" typeKey="" keyCode ="78" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="사각형" typeKey="" keyCode ="77" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="원형" typeKey="" keyCode ="76" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="브러쉬" typeKey="" keyCode ="66" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="자유 변형" typeKey="" keyCode ="69" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="스포이드" typeKey="" keyCode ="73" multi ="1" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="손" typeKey="" keyCode ="72" multi ="1" />
+        </category>
+        <category category_name="Object">
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_ExpandObject" formName="확장" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_ExpandStyleObject" formName="모양 확장" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_LockObject" formName="잠그기" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_GroupObject" formName="그룹" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_UnGroupObject" formName="그룹 해제" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_CreateMask" formName="클리핑 마스크" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_FilpHorizontal" formName="수직 반전" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_FilpVertical" formName="수평 반전" typeKey="" keyCode ="" multi ="" />
+        </category>
+        <category category_name="Text">
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 왼쪽정렬" typeKey="" keyCode ="76" multi ="3" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 중앙정렬" typeKey="" keyCode ="67" multi ="3" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 오른쪽정렬" typeKey="" keyCode ="82" multi ="3" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 아웃라인" typeKey="" keyCode ="79" multi ="3" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 정렬초기화" typeKey="" keyCode ="74" multi ="3" />
+        </category>
+        <category category_name="Artboard">
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_CreateArtboard" formName="새 대지" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_DeleteArtboard" formName="대지 삭제" typeKey="" keyCode ="" multi ="" />
+        </category>
+        <category category_name="Layer">
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_CreateLayer" formName="새 레이어" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_DeleteLayer" formName="레이어 삭제" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_DeleteEmptyLayer" formName="빈 레이어 삭제" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_FrontToLayer" formName="레이어 앞으로" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_BackToLayer" formName="레이어 뒤로" typeKey="" keyCode ="" multi ="" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_ToggleLayer" formName="레이어 토글" typeKey="" keyCode ="" multi ="" />
+        </category>
+        <category category_name="History">
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="실행 취소" typeKey="" keyCode ="90" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="다시 실행" typeKey="" keyCode ="90" multi ="3" />
+        </category>
+        <category category_name="Files">
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_NewWindow" formName="새 창" typeKey="" keyCode ="" multi ="0" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_Save" formName="저장하기" typeKey="" keyCode ="" multi ="0" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_Saveas" formName="다른 이름저장" typeKey="" keyCode ="" multi ="0" />
+        <toolName excuteType="sendScript" messageType="command" actionType="Ai_Export" formName="내보내기" typeKey="" keyCode ="" multi ="0" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="이미지 불러오기" typeKey="" keyCode ="79" multi ="2" />
+        </category>
+        <category category_name="Edit">
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="자르기" typeKey="" keyCode ="88" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="복사하기" typeKey="" keyCode ="67" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="붙여넣기" typeKey="" keyCode ="86" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="전체선택" typeKey="" keyCode ="65" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="전체선택 해제" typeKey="" keyCode ="65" multi ="3" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="앞에 붙이기" typeKey="" keyCode ="70" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="뒤에 붙이기" typeKey="" keyCode ="66" multi ="2" />
+        <toolName excuteType="sendKey" messageType="" actionType="" formName="삭제" typeKey="" keyCode ="46" multi ="1" />
+        </category>
+    </press>
+</illustrator>

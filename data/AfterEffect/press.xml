@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aftereffect>
+    <press name="test">
+        <category category_name="Tools">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="선택 도구" typeKey="" keyCode ="86" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="손 도구" typeKey="" keyCode ="72" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="회전 도구" typeKey="" keyCode ="87" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="카메라 도구" typeKey="" keyCode ="67" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="펜 도구" typeKey="" keyCode ="71" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="텍스트 커서" typeKey="" keyCode ="84" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="확대/축소" typeKey="" keyCode ="90" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="마스크,도형" typeKey="" keyCode ="81" multi ="1" />
+        </category>
+        <category category_name="Timeline">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="재생" typeKey="" keyCode ="32" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="시작점이동" typeKey="" keyCode ="221" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="종료점이동" typeKey="" keyCode ="219" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="시작점자르기" typeKey="" keyCode ="219" multi ="4" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="종료점자르기" typeKey="" keyCode ="221" multi ="4" />
+        </category>
+        <category category_name="Toggle">
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_ToggleLayer" formName="보기/끄기" typeKey="enabled" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_ToggleLayer" formName="모션블러" typeKey="motionBlur" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_ToggleLayer" formName="잠그기" typeKey="locked" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_ToggleLayer" formName="단일" typeKey="solo" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_ToggleLayer" formName="감춤" typeKey="shy" keyCode ="0" multi ="0" />
+        </category>
+        <category category_name="Effect">
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="색상보정" typeKey="ADBE Lumetri" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="선명" typeKey="ADBE Sharpen" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="광선" typeKey="ADBE Glo2" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="칠" typeKey="ADBE Fill" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="그라디언트 경사" typeKey="ADBE Ramp" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="뒤틀기 노이즈" typeKey="ADBE AIF Perlin Noise 3D" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="변위 맵" typeKey="ADBE Displacement Map" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="가우시안 흐림" typeKey="ADBE Gaussian Blur 2" keyCode ="0" multi ="0" />
+            <toolName excuteType="sendScript" messageType="command" actionType="AF_AddEffects" formName="색상 링크" typeKey="ADBE Color Link" keyCode ="0" multi ="0" />
+        </category>
+        <category category_name="History">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="실행 취소" typeKey="" keyCode ="90" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="다시 실행" typeKey="" keyCode ="90" multi ="3" />
+        </category>
+    </press>
+</aftereffect>

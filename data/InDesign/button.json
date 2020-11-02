@@ -1,0 +1,386 @@
+[
+    {
+        "category": "Tools",
+        "properties": [
+            {
+                "fname": "선택",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "selectTool"
+                }
+            },
+            {
+                "fname": "직접 선택",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "directSelectTool"
+                }
+            },
+            {
+                "fname": "간격",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "gapTool"
+                }
+            },
+            {
+                "fname": "펜",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "penTool"
+                }
+            },
+            {
+                "fname": "기준점 추가",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "addPointTool"
+                }
+            },
+            {
+                "fname": "기준점 삭제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "deletePointTool"
+                }
+            },
+            {
+                "fname": "방향점 변환",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "convertPointTool"
+                }
+            },
+            {
+                "fname": "선",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "lineTool"
+                }
+            },
+            {
+                "fname": "텍스트",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "typeTool"
+                }
+            },
+            {
+                "fname": "패스에 입력",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "typeOnPathTool"
+                }
+            },
+            {
+                "fname": "연필",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "pencleTool"
+                }
+            },
+            {
+                "fname": "매끄럽게",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "smoothTool"
+                }
+            },
+            {
+                "fname": "지우개",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "eraseTool"
+                }
+            },
+            {
+                "fname": "다각형 프레임",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "polygonFrameTool"
+                }
+            },
+            {
+                "fname": "사각형 프레임",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "rectFrameTool"
+                }
+            },
+            {
+                "fname": "타원 프레임",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "ellipseFreamTool"
+                }
+            },
+            {
+                "fname": "다각형",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "polygonTool"
+                }
+            },
+            {
+                "fname": "사각형",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "rectangleTool"
+                }
+            },
+            {
+                "fname": "타원",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "ellipseTool"
+                }
+            },
+            {
+                "fname": "회전",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "rotateTool"
+                }
+            },
+            {
+                "fname": "크기 조정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "scaleTool"
+                }
+            },
+            {
+                "fname": "기울이기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "shearTool"
+                }
+            },
+            {
+                "fname": "가위",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "scissorsTool"
+                }
+            },
+            {
+                "fname": "자유 변형",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "freeTool"
+                }
+            },
+            {
+                "fname": "그라디언트 색상",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "gradientTool"
+                }
+            },
+            {
+                "fname": "그라디언트 패더",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "gradientFeatherTool"
+                }
+            },
+            {
+                "fname": "메모",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "noteTool"
+                }
+            },
+            {
+                "fname": "스포이드",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "eyedropperTool"
+                }
+            },
+            {
+                "fname": "측정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "measureTool"
+                }
+            },
+            {
+                "fname": "손",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "HandTool"
+                }
+            },
+            {
+                "fname": "돋보기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "zoomTool"
+                }
+            },
+            {
+                "fname": "테이블",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "tableTool"
+                }
+            },
+            {
+                "fname": "플레이스 커서",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "placeCursorTool"
+                }
+            },
+            {
+                "fname": "모션 패스",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "motionPathTool"
+                }
+            },
+            {
+                "fname": "페이지",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_SetTool",
+                    "typeKey": "pageTool"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "새 레이어",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_CreateLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 삭제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_DeleteLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 복사",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_DuplicateLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "잠금/해제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_LockLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "활성/비활성",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_VisibleLayer",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Spread",
+        "properties": [
+            {
+                "fname": "새 스프레드",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Id_CreateSpread",
+                    "typeKey": ""
+                }
+            }
+        ]
+    }
+]

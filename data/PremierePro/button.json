@@ -1,0 +1,298 @@
+[
+    {
+        "category": "Play",
+        "properties": [
+            {
+                "fname": "뒤로 재생",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "j"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "재생",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "l"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "정지",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "k"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "Tools",
+        "properties": [
+            {
+                "fname": "선택 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "v"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "트랙 선택도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "a"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "잔물결 편집도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "b"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "롤링 편집도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "n"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "속도 조정도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "r"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "자르기 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "밀어넣기 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "y"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "밀기 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "u"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "펜 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "p"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "손 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "h"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "확대축소 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "Marker",
+        "properties": [
+            {
+                "fname": "마커 추가",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "다음 마커",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": [
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "이전 마커",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "현재 마커삭제",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "alt"
+                    ]
+                }
+            },
+            {
+                "fname": "모든 마커삭제",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift",
+                        "alt"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Indicator",
+        "properties": [
+            {
+                "fname": "자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "k"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "리플 자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "8"
+                    ],
+                    "modifiers": [
+                        "alt"
+                    ]
+                }
+            },
+            {
+                "fname": "왼쪽 자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "q"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "오른쪽 자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "w"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행 취소",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "다시 실행",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            }
+        ]
+    }
+]

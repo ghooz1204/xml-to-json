@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<indesign>
+    <press name="test">
+    <category category_name="Tools">
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="선택" typeKey="selectTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="직접 선택" typeKey="directSelectTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="간격" typeKey="gapTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="펜" typeKey="penTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="기준점 추가" typeKey="addPointTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="기준점 삭제" typeKey="deletePointTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="방향점 변환" typeKey="convertPointTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="선" typeKey="lineTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="텍스트" typeKey="typeTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="패스에 입력" typeKey="typeOnPathTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="연필" typeKey="pencleTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="매끄럽게" typeKey="smoothTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="지우개" typeKey="eraseTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="다각형 프레임" typeKey="polygonFrameTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="사각형 프레임" typeKey="rectFrameTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="타원 프레임" typeKey="ellipseFreamTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="다각형" typeKey="polygonTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="사각형" typeKey="rectangleTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="타원" typeKey="ellipseTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="회전" typeKey="rotateTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="크기 조정" typeKey="scaleTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="기울이기" typeKey="shearTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="가위" typeKey="scissorsTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="자유 변형" typeKey="freeTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="그라디언트 색상" typeKey="gradientTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="그라디언트 패더" typeKey="gradientFeatherTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="메모" typeKey="noteTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="스포이드" typeKey="eyedropperTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="측정" typeKey="measureTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="손" typeKey="HandTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="돋보기" typeKey="zoomTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="테이블" typeKey="tableTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="플레이스 커서" typeKey="placeCursorTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="모션 패스" typeKey="motionPathTool" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_SetTool" formName="페이지" typeKey="pageTool" keyCode ="" multi ="" />
+    </category>
+    <category category_name="Layer">
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_CreateLayer" formName="새 레이어" typeKey="" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_DeleteLayer" formName="레이어 삭제" typeKey="" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_DuplicateLayer" formName="레이어 복사" typeKey="" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_LockLayer" formName="잠금/해제" typeKey="" keyCode ="" multi ="" />
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_VisibleLayer" formName="활성/비활성" typeKey="" keyCode ="" multi ="" />
+    </category>
+    <category category_name="Spread">
+    <toolName excuteType="sendScript" messageType="command" actionType="Id_CreateSpread" formName="새 스프레드" typeKey="" keyCode ="" multi ="" />
+    </category>
+    </press>
+</indesign>

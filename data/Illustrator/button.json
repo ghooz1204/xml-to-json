@@ -1,0 +1,539 @@
+[
+    {
+        "category": "Tools",
+        "properties": [
+            {
+                "fname": "선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "v"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "직접 선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "a"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "자동 선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "y"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "올가미",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "q"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "펜",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "p"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "연필",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "n"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "사각형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "원형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "l"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "브러쉬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "b"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "자유 변형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "e"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "스포이드",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "i"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "손",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "h"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "Object",
+        "properties": [
+            {
+                "fname": "확장",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_ExpandObject",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "모양 확장",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_ExpandStyleObject",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "잠그기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_LockObject",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "그룹",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_GroupObject",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "그룹 해제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_UnGroupObject",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "클리핑 마스크",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_CreateMask",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "수직 반전",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_FilpHorizontal",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "수평 반전",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_FilpVertical",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Text",
+        "properties": [
+            {
+                "fname": "텍스트 왼쪽정렬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "l"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "텍스트 중앙정렬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "텍스트 오른쪽정렬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "r"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "텍스트 아웃라인",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "o"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "텍스트 정렬초기화",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "j"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Artboard",
+        "properties": [
+            {
+                "fname": "새 대지",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_CreateArtboard",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "대지 삭제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_DeleteArtboard",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "새 레이어",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_CreateLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 삭제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_DeleteLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "빈 레이어 삭제",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_DeleteEmptyLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 앞으로",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_FrontToLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 뒤로",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_BackToLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 토글",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_ToggleLayer",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행 취소",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "다시 실행",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Files",
+        "properties": [
+            {
+                "fname": "새 창",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_NewWindow",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "저장하기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_Save",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "다른 이름저장",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_Saveas",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "내보내기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "Ai_Export",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "이미지 불러오기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "o"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Edit",
+        "properties": [
+            {
+                "fname": "자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "x"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "복사하기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "붙여넣기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "v"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "전체선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "a"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "전체선택 해제",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "a"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "앞에 붙이기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "f"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "뒤에 붙이기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "b"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "삭제",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "delete"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    }
+]

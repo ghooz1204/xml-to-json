@@ -1,0 +1,133 @@
+[
+    {
+        "category": "Text",
+        "properties": [
+            {
+                "fname": "텍스트 크기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyTextSize",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "텍스트 자간",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyTextSpacing",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "텍스트 행간",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyTextLeading",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Object",
+        "properties": [
+            {
+                "fname": "획",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyStrokeSize",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "틴트",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyStrokeTint",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "가로 비율",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyStrokeHorizontalScale",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "세로 비율",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ModifyStrokeVerticalScale",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "레이어 선택",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_SelectLayer",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Zoom",
+        "properties": [
+            {
+                "fname": "화면 확대축소",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "Id_ZoomInOut",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행취소 다시실행",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

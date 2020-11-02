@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<photoshop>
+<rotate name="test">
+<category category_name="Brush">
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushSize" typeKey ="" formName="브러쉬 사이즈"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushHardness" typeKey ="" formName="브러쉬 경도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushOpacity" typeKey ="" formName="브러쉬 불투명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushFlow" typeKey ="" formName="브러쉬 흐름"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushMode" typeKey ="" formName="브러쉬 모드"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushAngle" typeKey ="" formName="브러쉬 각도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushSmooth" typeKey ="" formName="브러쉬 보정"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="modifyBrushRoundness" typeKey ="" formName="브러쉬 원형률"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+</category>
+<category category_name="View">
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="zoomInOut" typeKey ="" formName="화면 확대축소"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="화면 회전"  keycode1="125" keycode2="124" multi1="4" multi2="4"/>
+</category>
+<category category_name="Layer">
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="selectLayer" typeKey ="" formName="레이어 선택"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="moveLayer" typeKey ="" formName="레이어 이동"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="changeBlendMode" typeKey ="" formName="레이어 혼합모드"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="setLayerOpacity" typeKey ="" formName="레이어 불투명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="setLayerFill" typeKey ="" formName="레이어 칠" keycode1="0" keycode2="0" multi1="0" multi2="0" />
+</category>
+<category category_name="Color">
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="forecolorH" typeKey ="" formName="전경색 색상"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="forecolorS" typeKey ="" formName="전경색 채도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="forecolorB" typeKey ="" formName="전경색 명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="backcolorH" typeKey ="" formName="배경색 색상"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="backcolorS" typeKey ="" formName="배경색 채도" keycode1="0" keycode2="0" multi1="0" multi2="0" />
+<rotateName excuteType="sendScript" messageType="adjustment" actionType="backcolorB" typeKey ="" formName="배경색 명도" keycode1="0" keycode2="0" multi1="0" multi2="0" />
+</category>
+<category category_name="Adjustment Layers">
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBrightness" formName="명도/대비 (명도)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustContrast" formName="명도/대비 (대비)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustExposure" formName="노출 (노출)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustOffset" formName="노출 (오프셋)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustGamma" formName="노출 (감마 교정)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustHue" formName="색조/채도 (색조)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustSaturation" formName="색조/채도 (채도)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBrightness2" formName="색조/채도 (명도)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustVibrance" formName="활기 (활기)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustSaturation2" formName="활기 (채도)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceMidRed" formName="색상균형 (중간-빨강)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceMidGreen" formName="색상균형 (중간-녹색)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceMidBlue" formName="색상균형 (중간-파랑)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceSdwRed" formName="색상균형 (어두운-빨간)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceSdwGreen" formName="색상균형 (어두운-녹색)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceSdwBlue" formName="색상균형 (어두운-파랑)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceHigRed" formName="색상균형 (밝음-빨강)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceHigGreen" formName="색상균형 (밝음-녹색)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustColorbalanceHigBlue" formName="색상균형 (밝음-파랑)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteRed" formName="흑백 (빨강)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteYellow" formName="흑백 (노랑)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteGreen" formName="흑백 (녹색)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteCyan" formName="흑백 (녹청)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteBlue" formName="흑백 (파랑)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustBlackAndWhiteMagenta" formName="흑백 (마젠타)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustLevelInBlack" formName="레벨 (어두운영역 입력)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustLevelGamma" formName="레벨 (중간영역 입력)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustLevelInWhite" formName="레벨 (밝은영역 입력)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustLevelOutBlack" formName="레벨 (어두운영역 출력)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="adjustmentLayerAdjust" typeKey ="adjustLevelOutWhite" formName="레벨 (밝은영역 출력)"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+</category>
+<category category_name="History">
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="실행취소 다시실행"  keycode1="90" keycode2="90" multi1="2" multi2="3"/>
+</category>
+<category category_name="Mouse">
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="세로스크롤"  keycode1="-10" keycode2="10" multi1="9" multi2="9"/>
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="가로스크롤"  keycode1="10" keycode2="-10" multi1="10" multi2="10"/>
+</category>
+</rotate>
+</photoshop>

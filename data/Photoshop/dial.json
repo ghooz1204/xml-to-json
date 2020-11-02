@@ -1,0 +1,531 @@
+[
+    {
+        "category": "Brush",
+        "properties": [
+            {
+                "fname": "브러쉬 사이즈",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushSize",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 경도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushHardness",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 불투명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushOpacity",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 흐름",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushFlow",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 모드",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushMode",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 각도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushAngle",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 보정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushSmooth",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "브러쉬 원형률",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "modifyBrushRoundness",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "View",
+        "properties": [
+            {
+                "fname": "화면 확대축소",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "zoomInOut",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "화면 회전",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "f14"
+                            ],
+                            "modifiers": [
+                                "alt"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "f13"
+                            ],
+                            "modifiers": [
+                                "alt"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "레이어 선택",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "selectLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 이동",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "moveLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 혼합모드",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "changeBlendMode",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 불투명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "setLayerOpacity",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 칠",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "setLayerFill",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Color",
+        "properties": [
+            {
+                "fname": "전경색 색상",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "forecolorH",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "전경색 채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "forecolorS",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "전경색 명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "forecolorB",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "배경색 색상",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "backcolorH",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "배경색 채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "backcolorS",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "배경색 명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "backcolorB",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Adjustment Layers",
+        "properties": [
+            {
+                "fname": "명도/대비 (명도)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBrightness"
+                }
+            },
+            {
+                "fname": "명도/대비 (대비)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustContrast"
+                }
+            },
+            {
+                "fname": "노출 (노출)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustExposure"
+                }
+            },
+            {
+                "fname": "노출 (오프셋)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustOffset"
+                }
+            },
+            {
+                "fname": "노출 (감마 교정)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustGamma"
+                }
+            },
+            {
+                "fname": "색조/채도 (색조)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustHue"
+                }
+            },
+            {
+                "fname": "색조/채도 (채도)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustSaturation"
+                }
+            },
+            {
+                "fname": "색조/채도 (명도)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBrightness2"
+                }
+            },
+            {
+                "fname": "활기 (활기)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustVibrance"
+                }
+            },
+            {
+                "fname": "활기 (채도)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustSaturation2"
+                }
+            },
+            {
+                "fname": "색상균형 (중간-빨강)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceMidRed"
+                }
+            },
+            {
+                "fname": "색상균형 (중간-녹색)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceMidGreen"
+                }
+            },
+            {
+                "fname": "색상균형 (중간-파랑)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceMidBlue"
+                }
+            },
+            {
+                "fname": "색상균형 (어두운-빨간)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceSdwRed"
+                }
+            },
+            {
+                "fname": "색상균형 (어두운-녹색)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceSdwGreen"
+                }
+            },
+            {
+                "fname": "색상균형 (어두운-파랑)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceSdwBlue"
+                }
+            },
+            {
+                "fname": "색상균형 (밝음-빨강)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceHigRed"
+                }
+            },
+            {
+                "fname": "색상균형 (밝음-녹색)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceHigGreen"
+                }
+            },
+            {
+                "fname": "색상균형 (밝음-파랑)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustColorbalanceHigBlue"
+                }
+            },
+            {
+                "fname": "흑백 (빨강)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteRed"
+                }
+            },
+            {
+                "fname": "흑백 (노랑)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteYellow"
+                }
+            },
+            {
+                "fname": "흑백 (녹색)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteGreen"
+                }
+            },
+            {
+                "fname": "흑백 (녹청)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteCyan"
+                }
+            },
+            {
+                "fname": "흑백 (파랑)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteBlue"
+                }
+            },
+            {
+                "fname": "흑백 (마젠타)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustBlackAndWhiteMagenta"
+                }
+            },
+            {
+                "fname": "레벨 (어두운영역 입력)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustLevelInBlack"
+                }
+            },
+            {
+                "fname": "레벨 (중간영역 입력)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustLevelGamma"
+                }
+            },
+            {
+                "fname": "레벨 (밝은영역 입력)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustLevelInWhite"
+                }
+            },
+            {
+                "fname": "레벨 (어두운영역 출력)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustLevelOutBlack"
+                }
+            },
+            {
+                "fname": "레벨 (밝은영역 출력)",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "adjustmentLayerAdjust",
+                    "typeKey": "adjustLevelOutWhite"
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행취소 다시실행",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

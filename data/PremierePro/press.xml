@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<premierepro>
+<press name="test">
+<category category_name="Play">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="뒤로 재생" typeKey="" keyCode ="74" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="재생" typeKey="" keyCode ="76" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="정지" typeKey="" keyCode ="75" multi ="1" />
+</category>
+<category category_name="Tools">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="선택 도구" typeKey="" keyCode ="86" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="트랙 선택도구" typeKey="" keyCode ="65" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="잔물결 편집도구" typeKey="" keyCode ="66" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="롤링 편집도구" typeKey="" keyCode ="78" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="속도 조정도구" typeKey="" keyCode ="82" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="자르기 도구" typeKey="" keyCode ="67" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="밀어넣기 도구" typeKey="" keyCode ="89" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="밀기 도구" typeKey="" keyCode ="85" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="펜 도구" typeKey="" keyCode ="80" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="손 도구" typeKey="" keyCode ="72" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="확대축소 도구" typeKey="" keyCode ="90" multi ="1" />
+</category>
+
+<category category_name="Marker">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="마커 추가" typeKey="" keyCode ="77" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="다음 마커" typeKey="" keyCode ="77" multi ="5" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="이전 마커" typeKey="" keyCode ="77" multi ="3" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="현재 마커삭제" typeKey="" keyCode ="77" multi ="6" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="모든 마커삭제" typeKey="" keyCode ="77" multi ="7" />
+
+</category>
+<category category_name="Indicator">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="자르기" typeKey="" keyCode ="75" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="리플 자르기" typeKey="" keyCode ="8" multi ="4" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="왼쪽 자르기" typeKey="" keyCode ="81" multi ="1" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="오른쪽 자르기" typeKey="" keyCode ="87" multi ="1" />
+</category>
+<category category_name="History">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="실행 취소" typeKey="" keyCode ="90" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="다시 실행" typeKey="" keyCode ="90" multi ="3" />
+</category>
+
+</press>
+</premierepro>

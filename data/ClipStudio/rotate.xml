@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clipstudio>
+    <rotate name="test">
+        <category category_name="Brush">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="브러쉬 크기"  keycode1="219" keycode2="221" multi1="1" multi2="1"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="브러쉬 불투명도"  keycode1="219" keycode2="221" multi1="2" multi2="2"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="브러쉬 농도"  keycode1="79" keycode2="80" multi1="3" multi2="3"/>
+        </category>
+        <category category_name="View">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="화면 확대축소"  keycode1="189" keycode2="187" multi1="2" multi2="2"/>
+        </category>
+    </rotate>
+</clipstudio>

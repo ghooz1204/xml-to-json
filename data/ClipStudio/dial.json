@@ -1,0 +1,106 @@
+[
+    {
+        "category": "Brush",
+        "properties": [
+            {
+                "fname": "브러쉬 크기",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "["
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "]"
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "브러쉬 불투명도",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "["
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "]"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "브러쉬 농도",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "o"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "p"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "View",
+        "properties": [
+            {
+                "fname": "화면 확대축소",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "-"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "="
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<photoshop>
+<press name="test">
+<category category_name="Tools">
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="이동" typeKey="moveTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="대지" typeKey="artboardTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="사각형 선택 윤곽" typeKey="marqueeRectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="원형 선택 윤곽" typeKey="marqueeEllipTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="단일 행 선택 윤곽" typeKey="marqueeSingleRowTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="단일 열 선택 윤곽" typeKey="marqueeSingleColumnTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="올가미" typeKey="lassoTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="다각형 올가미" typeKey="polySelTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="자석 올가미" typeKey="magneticLassoTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="빠른 선택" typeKey="quickSelectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="자동 선택" typeKey="magicWandTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="자르기" typeKey="cropTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="원근 자르기" typeKey="perspectiveCropTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="분할 영역" typeKey="sliceTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="분할 영역 선택" typeKey="sliceSelectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="프레임 도구" typeKey="framedGroupTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="스포이드" typeKey="eyedropperTool" keyCode ="" multi =""/>
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="3D 재질 스포이드" typeKey="3DMaterialSelectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="색상 샘플러" typeKey="colorSamplerTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="눈금자" typeKey="rulerTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="메모" typeKey="textAnnotTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="카운트 도구" typeKey="countTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="스팟 복구 브러쉬" typeKey="spotHealingBrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="복구 브러쉬" typeKey="magicStampTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="패치" typeKey="patchSelection" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="내용 인식 이동" typeKey="recomposeSelection" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="적목 현상" typeKey="redEyeTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="브러쉬" typeKey="paintbrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="연필" typeKey="pencilTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="색상 대체" typeKey="colorReplacementBrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="혼합 브러쉬" typeKey="wetBrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="복제 도장" typeKey="cloneStampTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="패턴 도장" typeKey="patternStampTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="작업 내역 브러쉬" typeKey="historyBrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="미술 작업 내역 브러쉬" typeKey="artBrushTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="지우개" typeKey="eraserTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="배경 지우개" typeKey="backgroundEraserTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="자동 지우개" typeKey="magicEraserTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="그레디언트" typeKey="gradientTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="페인트 통" typeKey="bucketTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="3D 재질 놓기" typeKey="3DMaterialDropTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="흐림 효과" typeKey="blurTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="선명 효과" typeKey="sharpenTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="닷지" typeKey="dodgeTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="번" typeKey="burnInTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="스폰지" typeKey="saturationTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="펜" typeKey="penTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="자유 형태 펜" typeKey="freeformPenTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="곡률 펜" typeKey="curvaturePenTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="기준점 추가" typeKey="addKnotTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="기준점 삭제" typeKey="deleteKnotTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="기준점 변환" typeKey="convertKnotTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="수평 문자" typeKey="typeCreateOrEditTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="세로 문자" typeKey="typeVerticalCreateOrEditTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="세로 문자 마스크" typeKey="typeVerticalCreateMaskTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="수평 문자 마스크" typeKey="typeCreateMaskTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="패스 선택" typeKey="pathComponentSelectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="직접 선택" typeKey="directSelectTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="사각형" typeKey="rectangleTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="모서리가 동근 직사각형" typeKey="roundedRectangleTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="타원" typeKey="ellipseTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="다각형" typeKey="polygonTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="선" typeKey="lineTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="사용자 정의 모양" typeKey="customShapeTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="손" typeKey="handTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="회전 보기" typeKey="rotateTool" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setTool" formName="돋보기" typeKey="zoomTool" keyCode ="" multi ="" />
+</category>
+<category category_name="Layer">
+<toolName excuteType="sendScript" messageType="command" actionType="createLayer" formName="새 레이어" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="deleteLayer" formName="레이어 삭제" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="copyLayer" formName="레이어 복사" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="mergeDown" formName="레이어 병합" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="groupLayers" formName="레이어 그룹" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="레이어 그룹해제" typeKey="" keyCode ="71" multi ="3" />
+<toolName excuteType="sendScript" messageType="command" actionType="clippingMask" formName="클리핑 마스크" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createLayerMask" formName="레이어 마스크(블랙)" typeKey="hideAll" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createLayerMask" formName="레이어 마스크(화이트)" typeKey="revealAll" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="layerVisibleToggle" formName="레이어 보기/끄기" typeKey="revealAll" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="activateFreeTransform" formName="자유 변형" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="applyStroke" formName="획" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="allLayerHide" formName="모든 레이어 숨김" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setFill" formName="배경색 채우기" typeKey="backgroundColor" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="setFill" formName="전경색 채우기" typeKey="foregroundColor" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="copyMerge" formName="레이어 복사 병합" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="copyMergeVisible" formName="레이어 겹치기" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartObjectToggle" formName="레스터 화" typeKey="" keyCode ="" multi ="" />
+</category>
+<category category_name="Adjustment Layers">
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="노출" typeKey="exposure" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="곡선" typeKey="curves" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="색조/채도" typeKey="hueSaturation" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="레벨" typeKey="levels" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="선택 색상" typeKey="selectiveColor" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="포스터화" typeKey="posterize" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="한계값" typeKey="threshold" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="활기" typeKey="vibrance" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="색상 검색" typeKey="colorLookup" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="반전" typeKey="invert" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="명도" typeKey="brightness" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="색상균형" typeKey="colorBalance" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="흑백" typeKey="blackWhite" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="포토 필터" typeKey="photoFilter" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="채널 혼합" typeKey="channelMixer" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="createAdjustmentLayer" formName="그레이디언트 맵" typeKey="gradientMap" keyCode ="" multi ="" />
+</category>
+<category category_name="Filter">
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="가우시안 흐림" typeKey="gaussianBlur" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="하이패스" typeKey="highPass" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="평균" typeKey="average" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="흐리게" typeKey="blur" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="더 흐리게" typeKey="blurMore" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="상자 흐림" typeKey="boxBlur" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="구름 효과" typeKey="clouds" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="반점 제거" typeKey="despeckle" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="선명하게" typeKey="sharpen" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="가장자리 선명하게" typeKey="sharpenEdges" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="smartfilterCreate" formName="더 선명하게" typeKey="sharpenMore" keyCode ="" multi ="" />
+</category>
+<category category_name="View">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="눈금자" typeKey="" keyCode ="82" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="안내선" typeKey="" keyCode ="186" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="그리드" typeKey="" keyCode ="222" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="화면에 맞추기" typeKey="" keyCode ="96" multi ="2" />
+</category>
+<category category_name="History">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="실행 취소" typeKey="" keyCode ="90" multi ="2" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="다시 실행" typeKey="" keyCode ="90" multi ="3" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="한단계 뒤로" typeKey="" keyCode ="90" multi ="6" />
+</category>
+<category category_name="Files">
+<toolName excuteType="sendKey" messageType="" actionType="" formName="새 파일" typeKey="" keyCode ="78" multi ="2" />
+<toolName excuteType="sendScript" messageType="command" actionType="exportAsLayer" formName="레이어 내보내기" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="exportAsFile" formName="파일로 내보내기" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendScript" messageType="command" actionType="saveFile" formName="저장하기" typeKey="" keyCode ="" multi ="" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="다른 이름저장" typeKey="" keyCode ="83" multi ="3" />
+<toolName excuteType="sendKey" messageType="" actionType="" formName="웹용 저장" typeKey="" keyCode ="83" multi ="7" />
+</category>
+
+</press>
+</photoshop>

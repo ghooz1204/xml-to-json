@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<premierepro>
+<rotate name="test">
+<category category_name="Timeline">
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="1프레임 이동"  keycode1="37" keycode2="39" multi1="1" multi2="1"/>
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="5프레임 이동"  keycode1="37" keycode2="39" multi1="5" multi2="5"/>
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="타임라인 확대축소"  keycode1="189" keycode2="187" multi1="1" multi2="1"/>
+</category>
+<category category_name="Motion">
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,10" formName="모션 아이템" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+</category>
+<category category_name="Opacity">
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,10" formName="불투명도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+</category>
+<category category_name="Lumetri Color">
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,10" formName="온도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,11" formName="색조" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,14" formName="노출" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,15" formName="대비" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,16" formName="명도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,17" formName="어두운 영역" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,18" formName="흰색" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,19" formName="검정" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,24" formName="채도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,31" formName="강도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,33" formName="빛바랜 필름" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,34" formName="선명"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,35" formName="활기"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+<rotateName excuteType="sendScript" messageType="modifyProperty" actionType="Pr_ModifyProperty" typeKey ="Lumetri 색상,36" formName="채도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+</category>
+<category category_name="History">
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="실행취소 다시실행"  keycode1="90" keycode2="90" multi1="2" multi2="3"/>
+</category>
+<category category_name="Mouse">
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="세로스크롤"  keycode1="-10" keycode2="10" multi1="9" multi2="9"/>
+<rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="가로스크롤"  keycode1="-10" keycode2="10" multi1="10" multi2="10"/>
+</category>
+</rotate>
+</premierepro>

@@ -1,0 +1,312 @@
+[
+    {
+        "category": "Tools",
+        "properties": [
+            {
+                "fname": "선택 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "v"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "손 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "h"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "회전 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "w"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "카메라 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "펜 도구",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "g"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "텍스트 커서",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "t"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "확대/축소",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "마스크,도형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "q"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "Timeline",
+        "properties": [
+            {
+                "fname": "재생",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "space"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "시작점이동",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "]"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "종료점이동",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "["
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "시작점자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "["
+                    ],
+                    "modifiers": [
+                        "alt"
+                    ]
+                }
+            },
+            {
+                "fname": "종료점자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "]"
+                    ],
+                    "modifiers": [
+                        "alt"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Toggle",
+        "properties": [
+            {
+                "fname": "보기/끄기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_ToggleLayer",
+                    "typeKey": "enabled"
+                }
+            },
+            {
+                "fname": "모션블러",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_ToggleLayer",
+                    "typeKey": "motionBlur"
+                }
+            },
+            {
+                "fname": "잠그기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_ToggleLayer",
+                    "typeKey": "locked"
+                }
+            },
+            {
+                "fname": "단일",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_ToggleLayer",
+                    "typeKey": "solo"
+                }
+            },
+            {
+                "fname": "감춤",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_ToggleLayer",
+                    "typeKey": "shy"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Effect",
+        "properties": [
+            {
+                "fname": "색상보정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Lumetri"
+                }
+            },
+            {
+                "fname": "선명",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Sharpen"
+                }
+            },
+            {
+                "fname": "광선",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Glo2"
+                }
+            },
+            {
+                "fname": "칠",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Fill"
+                }
+            },
+            {
+                "fname": "그라디언트 경사",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Ramp"
+                }
+            },
+            {
+                "fname": "뒤틀기 노이즈",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE AIF Perlin Noise 3D"
+                }
+            },
+            {
+                "fname": "변위 맵",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Displacement Map"
+                }
+            },
+            {
+                "fname": "가우시안 흐림",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Gaussian Blur 2"
+                }
+            },
+            {
+                "fname": "색상 링크",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "command",
+                    "actionType": "AF_AddEffects",
+                    "typeKey": "ADBE Color Link"
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행 취소",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "다시 실행",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "z"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            }
+        ]
+    }
+]

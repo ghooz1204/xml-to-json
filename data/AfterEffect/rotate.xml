@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aftereffect>
+    <rotate name="test">
+        <category category_name="Timeline">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="프레임 1초이동"  keycode1="37" keycode2="39" multi1="2" multi2="2"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="프레임 10초이동"  keycode1="37" keycode2="39" multi1="3" multi2="3"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="타임라인 확대축소"  keycode1="189" keycode2="187" multi1="1" multi2="1"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="키프레임 이동하기"  keycode1="74" keycode2="75" multi1="1" multi2="1"/>
+        </category>
+        <category category_name="Transform">
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerScale" typeKey ="" formName="비율"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerScaleX" typeKey ="" formName="비율X"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerScaleY" typeKey ="" formName="비율Y"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerScaleZ" typeKey ="" formName="비율Z"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerOpacity" typeKey ="" formName="불투명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerAnchorPointX" typeKey ="" formName="기준점 X"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerAnchorPointY" typeKey ="" formName="기준점 Y"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerAnchorPointZ" typeKey ="" formName="기준점 Z"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerRotateX" typeKey ="" formName="회전 X"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerRotateY" typeKey ="" formName="회전 Y"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerRotateZ" typeKey ="" formName="회전 Z"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerPositionX" typeKey ="" formName="포지션 X"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerPositionY" typeKey ="" formName="포지션 Y"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerPositionZ" typeKey ="" formName="포지션 Z"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerOrientationX" typeKey ="" formName="방향 X"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerOrientationY" typeKey ="" formName="방향 Y"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_ModifyLayerOrientationZ" typeKey ="" formName="방향 Z"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Layer">
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_MoveLayer" typeKey ="" formName="레이어 이동"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustment" actionType="AF_SelectedLayer" typeKey ="" formName="레이어 선택"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Lumetri Color">
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0008" formName="색조" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0007" formName="온도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0011" formName="노출" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0012" formName="대비" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0013" formName="밝은 영역" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0014" formName="어두운 영역" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0015" formName="흰색" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0016" formName="검정" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0028" formName="빛바랜 필름" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0029" formName="선명" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0030" formName="활기" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLumetriColors" typeKey ="ADBE Lumetri-0031" formName="채도" keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Zoom">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="화면 확대축소"  keycode1="188" keycode2="190" multi1="1" multi2="1"/>
+        </category>
+        <category category_name="Camera">
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Camera Zoom" formName="줌"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Camera Blur Level" formName="흐림 레벨"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Camera Aperture" formName="조리개"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Camera Focus Distance" formName="초점 거리"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Camera Depth of Field" formName="피사계 심도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Shape" formName="조리개 모양"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Rotation" formName="조리개 회전"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Roundness" formName="조리개 원형률"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Aspect Ratio" formName="조리개 종황비"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Diffraction Fringe" formName="프린지"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Highlight Gain" formName="게인"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Highlight Threshold" formName="임계값"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyCameraOption" typeKey ="ADBE Iris Hightlight Saturation" formName="채도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Light">
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Intensity" formName="조명 강도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Color RGBA" formName="조명 색상"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Color R" formName="조명색상 R"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Color G" formName="조명색상 G"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Color B" formName="조명색상 B"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Color A" formName="조명색상 A"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Cone Angle" formName="조명 각도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Cone Feather 2" formName="조명 페더"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Falloff Start" formName="반경"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Falloff Distance" formName="밝기 감소거리"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Shadow Darkness" formName="그림자 농도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+            <rotateName excuteType="sendScript" messageType="adjustmentLayer" actionType="AF_ModifyLightOption" typeKey ="ADBE Light Shadow Diffusion" formName="그림자 확산"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="History">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="실행취소 다시실행"  keycode1="90" keycode2="90" multi1="2" multi2="3"/>
+        </category>
+        <category category_name="Mouse">
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="세로스크롤"  keycode1="-10" keycode2="10" multi1="9" multi2="9"/>
+            <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="가로스크롤"  keycode1="-10" keycode2="10" multi1="10" multi2="10"/>
+        </category>
+    </rotate>
+</aftereffect>

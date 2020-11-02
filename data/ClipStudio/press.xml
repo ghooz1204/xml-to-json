@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clipstudio>
+    <press name="test">
+        <category category_name="Tools">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="브러쉬" typeKey="" keyCode ="66" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="마법봉" typeKey="" keyCode ="87" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="색상 믹스" typeKey="" keyCode ="88" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="연필/펜" typeKey="" keyCode ="67" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="지우개" typeKey="" keyCode ="86" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="그라데이션" typeKey="" keyCode ="74" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="이미지 이동" typeKey="" keyCode ="75" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="자르기" typeKey="" keyCode ="78" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="자유 선택" typeKey="" keyCode ="76" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="도형 선택" typeKey="" keyCode ="77" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="특수 브러쉬" typeKey="" keyCode ="66" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="말풍선 꼬리" typeKey="" keyCode ="84" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="도형" typeKey="" keyCode ="85" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="퍼스자" typeKey="" keyCode ="52" multi ="1" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="특수 자" typeKey="" keyCode ="53" multi ="1" />
+        </category>
+        <category category_name="Layer">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="새 레이어" typeKey="" keyCode ="78" multi ="3" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="아래 레이어병합" typeKey="" keyCode ="69" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="새 폴더" typeKey="" keyCode ="71" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="레이어 복제" typeKey="" keyCode ="67" multi ="3" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="레이어 변환" typeKey="" keyCode ="52" multi ="6" />
+        </category>
+        <category category_name="Edit">
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="색상/채도" typeKey="" keyCode ="85" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="자유변형" typeKey="" keyCode ="84" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="레벨조정" typeKey="" keyCode ="76" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="색 반전" typeKey="" keyCode ="73" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="선택번위 확장" typeKey="" keyCode ="53" multi ="2" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="선택범위 축소" typeKey="" keyCode ="53" multi ="6" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="선택영역 반전" typeKey="" keyCode ="73" multi ="3" />
+            <toolName excuteType="sendKey" messageType="" actionType="" formName="화면 꽉채우기" typeKey="" keyCode ="48" multi ="2" />
+        </category>
+    </press>
+</clipstudio>

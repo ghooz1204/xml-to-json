@@ -1,0 +1,260 @@
+[
+    {
+        "category": "Timeline",
+        "properties": [
+            {
+                "fname": "1프레임 이동",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "left"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "right"
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "5프레임 이동",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "left"
+                            ],
+                            "modifiers": [
+                                "shift"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "right"
+                            ],
+                            "modifiers": [
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "타임라인 확대축소",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "-"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "="
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "Motion",
+        "properties": [
+            {
+                "fname": "모션 아이템",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,10"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Opacity",
+        "properties": [
+            {
+                "fname": "불투명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,10"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Lumetri Color",
+        "properties": [
+            {
+                "fname": "온도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,10"
+                }
+            },
+            {
+                "fname": "색조",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,11"
+                }
+            },
+            {
+                "fname": "노출",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,14"
+                }
+            },
+            {
+                "fname": "대비",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,15"
+                }
+            },
+            {
+                "fname": "명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,16"
+                }
+            },
+            {
+                "fname": "어두운 영역",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,17"
+                }
+            },
+            {
+                "fname": "흰색",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,18"
+                }
+            },
+            {
+                "fname": "검정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,19"
+                }
+            },
+            {
+                "fname": "채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,24"
+                }
+            },
+            {
+                "fname": "강도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,31"
+                }
+            },
+            {
+                "fname": "빛바랜 필름",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,33"
+                }
+            },
+            {
+                "fname": "선명",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,34"
+                }
+            },
+            {
+                "fname": "활기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,35"
+                }
+            },
+            {
+                "fname": "채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "modifyProperty",
+                    "actionType": "Pr_ModifyProperty",
+                    "typeKey": "Lumetri 색상,36"
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행취소 다시실행",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

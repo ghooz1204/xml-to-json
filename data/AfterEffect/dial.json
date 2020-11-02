@@ -1,0 +1,726 @@
+[
+    {
+        "category": "Timeline",
+        "properties": [
+            {
+                "fname": "프레임 1초이동",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "left"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "right"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "프레임 10초이동",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "left"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "right"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "타임라인 확대축소",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "-"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "="
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "키프레임 이동하기",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "j"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "k"
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "Transform",
+        "properties": [
+            {
+                "fname": "비율",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerScale",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "비율X",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerScaleX",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "비율Y",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerScaleY",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "비율Z",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerScaleZ",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "불투명도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerOpacity",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "기준점 X",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerAnchorPointX",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "기준점 Y",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerAnchorPointY",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "기준점 Z",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerAnchorPointZ",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "회전 X",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerRotateX",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "회전 Y",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerRotateY",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "회전 Z",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerRotateZ",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "포지션 X",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerPositionX",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "포지션 Y",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerPositionY",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "포지션 Z",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerPositionZ",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "방향 X",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerOrientationX",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "방향 Y",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerOrientationY",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "방향 Z",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_ModifyLayerOrientationZ",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "레이어 이동",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_MoveLayer",
+                    "typeKey": ""
+                }
+            },
+            {
+                "fname": "레이어 선택",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustment",
+                    "actionType": "AF_SelectedLayer",
+                    "typeKey": ""
+                }
+            }
+        ]
+    },
+    {
+        "category": "Lumetri Color",
+        "properties": [
+            {
+                "fname": "색조",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0008"
+                }
+            },
+            {
+                "fname": "온도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0007"
+                }
+            },
+            {
+                "fname": "노출",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0011"
+                }
+            },
+            {
+                "fname": "대비",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0012"
+                }
+            },
+            {
+                "fname": "밝은 영역",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0013"
+                }
+            },
+            {
+                "fname": "어두운 영역",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0014"
+                }
+            },
+            {
+                "fname": "흰색",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0015"
+                }
+            },
+            {
+                "fname": "검정",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0016"
+                }
+            },
+            {
+                "fname": "빛바랜 필름",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0028"
+                }
+            },
+            {
+                "fname": "선명",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0029"
+                }
+            },
+            {
+                "fname": "활기",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0030"
+                }
+            },
+            {
+                "fname": "채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLumetriColors",
+                    "typeKey": "ADBE Lumetri-0031"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Zoom",
+        "properties": [
+            {
+                "fname": "화면 확대축소",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                ","
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "."
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "Camera",
+        "properties": [
+            {
+                "fname": "줌",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Camera Zoom"
+                }
+            },
+            {
+                "fname": "흐림 레벨",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Camera Blur Level"
+                }
+            },
+            {
+                "fname": "조리개",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Camera Aperture"
+                }
+            },
+            {
+                "fname": "초점 거리",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Camera Focus Distance"
+                }
+            },
+            {
+                "fname": "피사계 심도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Camera Depth of Field"
+                }
+            },
+            {
+                "fname": "조리개 모양",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Shape"
+                }
+            },
+            {
+                "fname": "조리개 회전",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Rotation"
+                }
+            },
+            {
+                "fname": "조리개 원형률",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Roundness"
+                }
+            },
+            {
+                "fname": "조리개 종황비",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Aspect Ratio"
+                }
+            },
+            {
+                "fname": "프린지",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Diffraction Fringe"
+                }
+            },
+            {
+                "fname": "게인",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Highlight Gain"
+                }
+            },
+            {
+                "fname": "임계값",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Highlight Threshold"
+                }
+            },
+            {
+                "fname": "채도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyCameraOption",
+                    "typeKey": "ADBE Iris Hightlight Saturation"
+                }
+            }
+        ]
+    },
+    {
+        "category": "Light",
+        "properties": [
+            {
+                "fname": "조명 강도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Intensity"
+                }
+            },
+            {
+                "fname": "조명 색상",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Color RGBA"
+                }
+            },
+            {
+                "fname": "조명색상 R",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Color R"
+                }
+            },
+            {
+                "fname": "조명색상 G",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Color G"
+                }
+            },
+            {
+                "fname": "조명색상 B",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Color B"
+                }
+            },
+            {
+                "fname": "조명색상 A",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Color A"
+                }
+            },
+            {
+                "fname": "조명 각도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Cone Angle"
+                }
+            },
+            {
+                "fname": "조명 페더",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Cone Feather 2"
+                }
+            },
+            {
+                "fname": "반경",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Falloff Start"
+                }
+            },
+            {
+                "fname": "밝기 감소거리",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Falloff Distance"
+                }
+            },
+            {
+                "fname": "그림자 농도",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Shadow Darkness"
+                }
+            },
+            {
+                "fname": "그림자 확산",
+                "etype": "sendCepScript",
+                "fcode": {
+                    "messageType": "adjustmentLayer",
+                    "actionType": "AF_ModifyLightOption",
+                    "typeKey": "ADBE Light Shadow Diffusion"
+                }
+            }
+        ]
+    },
+    {
+        "category": "History",
+        "properties": [
+            {
+                "fname": "실행취소 다시실행",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control"
+                            ]
+                        },
+                        "right": {
+                            "keys": [
+                                "z"
+                            ],
+                            "modifiers": [
+                                "control",
+                                "shift"
+                            ]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "category": "Mouse",
+        "properties": [
+            {
+                "fname": "세로스크롤",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "-10"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "10"
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            },
+            {
+                "fname": "가로스크롤",
+                "etype": "sendDialKeyboards",
+                "fcode": {
+                    "rotate": {
+                        "left": {
+                            "keys": [
+                                "-10"
+                            ],
+                            "modifiers": []
+                        },
+                        "right": {
+                            "keys": [
+                                "10"
+                            ],
+                            "modifiers": []
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

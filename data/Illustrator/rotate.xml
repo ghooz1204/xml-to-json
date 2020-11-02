@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<illustrator>
+    <rotate>
+        <category category_name="Object">
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyStroke" typeKey ="" formName="획"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyResize" typeKey ="" formName="비율"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyVerticalScale" typeKey ="" formName="세로 비율"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyHorizontalScale" typeKey ="" formName="가로 비율"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_RotateObject" typeKey ="" formName="회전"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyStrokeOpacity" typeKey ="" formName="불투명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_SelectPathItem" typeKey ="" formName="패스 선택"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_MovePathItem" typeKey ="" formName="패스 이동"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Texts">
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyTextFontChange" typeKey ="" formName="텍스트 폰트"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyTextSize" typeKey ="" formName="텍스트 크기"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyTextSpacing" typeKey ="" formName="텍스트 자간"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyTextLeading" typeKey ="" formName="텍스트 행간"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ModifyTextAngle" typeKey ="" formName="텍스트 회전"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Artboard">
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_SelectArtboard" typeKey ="" formName="아트보드 변경"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Layer">
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_SelectLayer" typeKey ="" formName="레이어 선택"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_MoverLayer" typeKey ="" formName="레이어 이동"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_SetLayerOpacity" typeKey ="" formName="레이어 불투명도"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="Zoom">
+        <rotateName excuteType="sendScript" messageType="adjustment" actionType="Ai_ZoomInOut" typeKey ="" formName="화면 확대축소"  keycode1="0" keycode2="0" multi1="0" multi2="0"/>
+        </category>
+        <category category_name="History">
+        <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="실행취소 다시실행"  keycode1="90" keycode2="90" multi1="2" multi2="3"/>
+        </category>
+        <category category_name="Mouse">
+        <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="세로스크롤"  keycode1="-10" keycode2="10" multi1="9" multi2="9"/>
+        <rotateName excuteType="sendKey" messageType="" actionType="" typeKey ="" formName="가로스크롤"  keycode1="-10" keycode2="10" multi1="10" multi2="10"/>
+        </category>
+    </rotate>
+</illustrator>

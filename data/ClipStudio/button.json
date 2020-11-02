@@ -1,0 +1,328 @@
+[
+    {
+        "category": "Tools",
+        "properties": [
+            {
+                "fname": "브러쉬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "b"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "마법봉",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "w"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "색상 믹스",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "x"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "연필/펜",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "지우개",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "v"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "그라데이션",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "j"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "이미지 이동",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "k"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "자르기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "n"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "자유 선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "l"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "도형 선택",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "m"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "특수 브러쉬",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "b"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "말풍선 꼬리",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "t"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "도형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "u"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "퍼스자",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "4"
+                    ],
+                    "modifiers": []
+                }
+            },
+            {
+                "fname": "특수 자",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "5"
+                    ],
+                    "modifiers": []
+                }
+            }
+        ]
+    },
+    {
+        "category": "Layer",
+        "properties": [
+            {
+                "fname": "새 레이어",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "n"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "아래 레이어병합",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "e"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "새 폴더",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "g"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "레이어 복제",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "c"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "레이어 변환",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "4"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "alt"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "category": "Edit",
+        "properties": [
+            {
+                "fname": "색상/채도",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "u"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "자유변형",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "t"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "레벨조정",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "l"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "색 반전",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "i"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "선택번위 확장",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "5"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            },
+            {
+                "fname": "선택범위 축소",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "5"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "alt"
+                    ]
+                }
+            },
+            {
+                "fname": "선택영역 반전",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "i"
+                    ],
+                    "modifiers": [
+                        "control",
+                        "shift"
+                    ]
+                }
+            },
+            {
+                "fname": "화면 꽉채우기",
+                "etype": "sendKeyboards",
+                "fcode": {
+                    "keys": [
+                        "0"
+                    ],
+                    "modifiers": [
+                        "control"
+                    ]
+                }
+            }
+        ]
+    }
+]
